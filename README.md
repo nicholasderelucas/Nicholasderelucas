@@ -20,7 +20,7 @@ This repository contains beginner-level Terraform configurations designed to hel
 ---
 
 ## Getting Started
-
+google-site-verification: googledf2b8ca040f53f1f.html
 1. Clone the repository:
 
 ```bash

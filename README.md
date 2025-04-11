@@ -1,16 +1,28 @@
-## Hi there 👋
+# Terraform Starter Project
 
-<!--
-**nicholasderelucas/Nicholasderelucas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository contains beginner-level Terraform configurations designed to help new users learn Infrastructure as Code (IaC) fundamentals. It includes examples for AWS infrastructure provisioning using Terraform CLI.
 
-Here are some ideas to get you started:
+## What This Project Does
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Provisions a simple **AWS VPC**
+- Deploys a **public EC2 instance**
+- Creates an **S3 bucket**
+- Demonstrates **Terraform modules**, variables, and outputs
+
+---
+
+## Prerequisites
+
+- [Terraform](https://developer.hashicorp.com/terraform/downloads) (v1.4+)
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- An AWS account with programmatic access (access key + secret)
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/terraform-starter.git
+cd terraform-starter
